@@ -11,8 +11,8 @@ After making an AWS account and signing in as a root user
 10. Enter "sudo systemctl start httpd", this starts Apache
 11. Enter "sudo systemctl enable httpd", this causes Apache to start on boot if the EC2 instance goes down.
 12. Enter "sudo yum install git -y", this installs git to the Linux machine
-13. Enter "sudo git clone "https://github.com/Simpsonkr/360VirtualREalityMobileSite.git",(I'm sorry you cannot copy paste this), this installs the repo
-14. Enter "sudo cp -r 360VirtualREalityMobileSite/* /var/www/html/", this copies the repo to the web root directory
+13. Enter "sudo git clone https://github.com/Simpsonkr/360VirtualREalityMobileSite.git",(I'm sorry you cannot copy paste this), this installs the repo
+14. Enter "sudo cp -r 360VirtualREalityMobileSite/* /var/www/html/, this copies the repo to the web root directory
 15. Now back to the original tab, in the "Connect" window, click the link that is in the "Security groups" section.
 16. In "Inbound Rules" click the "Edit inbound rules" button
 17  The "Type" needs to be changed to "HTTP" in the dropdown menu, in the box with the search icon select "0.0.0.0/0"
